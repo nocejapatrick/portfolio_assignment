@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Assignment</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            outline: none;
+        }
+
+        .container{
+            padding-top: 20px;
+            width: 970px;
+            margin: auto;
+        }
+        body{
+            background: radial-gradient(circle, rgba(111,89,100,1) 0%, rgba(37,20,25,1) 100%, rgba(37,20,25,1) 100%);
+        }
+        .d-inline-block{
+            display: inline-block;
+        }
+        .heading{
+            padding:20px;
+            background-color: #fafafa;
+        }
+        h1{
+            width: 562px;
+        }
+        .contents{
+            padding:20px 30px;
+        }
+        .portfolio-img{
+            background-image: url(images/photo_of_me.jpg);
+            width: 400px;
+            height: 270px;
+            background-size: cover;
+            border:5px solid #c0c0c0;
+            vertical-align: top;
+            margin-right: 20px;
+        }
+
+        .about{
+            width: 476px;
+        }
+
+        .about-content{
+          
+            font-size: 17px;
+            padding: 12px 12px 35px 12px;
+        }
+
+        .bg-g-violet{
+            background: linear-gradient(270deg, rgba(219,205,218,1) 10%, rgba(255,249,255,1) 90%);
+        }
+
+        .about h3, .list-container h3{
+            background: linear-gradient(0deg, rgba(176,175,180,1) 10%, rgba(135,134,147,1) 50%, rgba(176,175,180,1) 90%);
+            padding: 10px;
+            color: #fbfdfe;
+        }
+        .about-content a{
+            margin-top: 10px;
+            color: #1f0000;
+            display: inline-block;
+        }
+        .list{
+            width: 290px;
+            margin-top: 30px;
+            display: inline-block;
+            margin-right: 16px;
+        }
+        .list:last-child{
+            margin-right: 0px;
+        }
+        .list .list-img{
+            width: 100%;
+        }
+        .lamode{
+            background-image: url(images/lamode.png);
+            background-size: cover;
+            height: 150px;
+        }
+        .family_contacts{
+            background-image: url(images/familycontacts.png);
+            background-size: cover;
+            height: 150px;
+        }
+
+        .fiveEleven{
+            background-image: url(images/fiveEleven.png);
+            background-size: cover;
+            height: 150px;
+        }
+
+        .list-content{
+            height: 160px;
+            padding: 20px 10px;
+        }
+        .logo-container{
+            padding: 10px 15px 0px 15px;
+        }
+        .logo-container img{
+            width: 36px;
+            height: 36px;
+            display: inline-block;
+            margin-right: 12px;
+            margin-bottom: 15px;
+        }
+        .list-btn{
+            background-color: #407d61;
+            text-align: center;
+            padding: 5px 10px;
+            border:1px solid #193e2d;
+            font-weight: bold;
+            color:#FFF;
+            border-radius: 7px;
+            margin-bottom: 20px;
+            font-size: 15px;
+        }
+        .text-center{
+            text-align: center;
+        }
+        .text-center a{
+            display: inline-block;
+        }
+        .mt-10{
+            margin-top: 10px;
+        }
+        .mb-0 img{
+            margin-bottom: 0px;
+        }
+        .footer{
+            text-align: center;
+            margin-top: 20px;
+            background-color: #f8f8f8;
+            padding:10px;
+        }
+        .footer img{
+            width: 20px;
+            height: 20px;
+        }
+        .footer .media{
+            margin-top: 20px;
+        }
+        .footer .media *{
+            display: inline-block;
+            vertical-align: middle;
+            margin: 3px;
+            font-style: italic;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="heading">
+            <h1 class="d-inline-block">Jayne Doe</h1>
+            <h2 class="d-inline-block">Master of shadow and the Internet!</h2>
+        </div>
+        <div class="contents">
+            <div class="portfolio-img d-inline-block"></div>
+            <div class="about d-inline-block">
+                <h3>About...</h3>
+                <div class="about-content bg-g-violet">
+                    <p>Hello I'm an extremely driven and creative Full Stack Developer who is currently open for carreer oppotunities as a front-end or back-end web developer in the Greater Seattle Area.</p>
+                    <p>I'm a recent graduating of Coding Dojo, a coding school located in Bellevue. WA that teaches 3 full stacks in 3 months. I'm capable of learning new technologies very quickly, and am always looking for opportunities to further expand my skills and grow as a developer</p>
+                    <a href="#" class="btn">Continue reading...</a>
+                </div>
+            </div>
+            <div class="list-container">
+                <div class="list list-1">
+                    <h3>La Mode</h3>
+                    <div class="list-img lamode"></div>
+                    <p class="list-content bg-g-violet">
+                        La mode is an Ecommerce website for designed to market various clothing products. Users are able to view the available garments select their desired quantity and compile a shopping cart for making a final purchase.
+                    </p>
+                    <h3>Technologies:</h3>
+                    <div class="bg-g-violet">
+                        <div class="logo-container">
+                            <img src="images/php.png" alt="">
+                            <img src="images/codeigniter.png" alt="">
+                            <img src="images/jQuery.png" alt="">
+                            <img src="images/ajax.png" alt="">
+                            <img src="images/mysql.png" alt="">
+                            <div class="mb-0">
+                                <img src="images/HTML.png" alt="">
+                                <img src="images/CSS.png" alt="">
+                                <img src="images/bootstrap.png" alt="">
+                            </div>
+                        
+                        </div>
+                        <div class="text-center mt-10 mb-20">
+                            <a href="#" class="list-btn">La Mode</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="list list-2">
+                    <h3>Family Contacts</h3>
+                    <div class="list-img family_contacts"></div>
+                    <p class="list-content bg-g-violet">
+                       Family Contacts is a free application for managing, sharing, and visualizing your family relationships for both extended and immediate family. As an essential feature of the project, your log-in information determines who you can see and reveals how people are related to you. 
+                    </p>
+                    <h3>Technologies:</h3>
+                    <div class="bg-g-violet">
+                        <div class="logo-container">
+                            <img src="images/JavaScript.png" alt="">
+                            <img src="images/mongodb.png" alt="">
+                            <img src="images/expressjs.png" alt="">
+                            <img src="images/angular.png" alt="">
+                            <img src="images/nodejs.png" alt="">
+                            <div class="mb-0">
+                                <img src="images/HTML.png" alt="">
+                                <img src="images/CSS.png" alt="">
+                                <img src="images/socket.png" alt="">
+                            </div>
+                        
+                        </div>
+                        <div class="text-center mt-10 mb-20">
+                            <a href="#" class="list-btn">Family Contacts</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="list list-3">
+                    <h3>fiveEleven</h3>
+                    <div class="list-img fiveEleven"></div>
+                    <p class="list-content bg-g-violet">
+                      Five Eleven is a data visualization project built on the Python software stack. The application transforms the developer jobhunt into a more visual, user friendly experience. Based on location, technology, popularity, and other vast data sets, users may easily visualize the varying sizes and concentrations of the junior developers job market across the nation.
+                    </p>
+                    <h3>Technologies:</h3>
+                    <div class="bg-g-violet">
+                        <div class="logo-container">
+                            <img src="images/JavaScript.png" alt="">
+                            <img src="images/mongodb.png" alt="">
+                            <img src="images/expressjs.png" alt="">
+                            <img src="images/angular.png" alt="">
+                            <img src="images/nodejs.png" alt="">
+                            <div class="mb-0">
+                                <img src="images/HTML.png" alt="">
+                                <img src="images/CSS.png" alt="">
+                                <img src="images/socket.png" alt="">
+                            </div>
+                        
+                        </div>
+                        <div class="text-center mt-10 mb-20">
+                            <a href="#" class="list-btn">fiveEleven</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                <p>jdoe@gmails.com | 206-555-1212</p>
+                <div class="media">
+                    <img src="images/github.png" alt="">
+                    <p>jaynedev</p>
+                    <img src="images/linkedin.png" alt="">
+                    <p>jayne-doe</p>
+                    <img src="images/twitter.png" alt="">
+                    <p>jdtweets</p>
+                    <img src="images/codepen.png" alt="">
+                    <p>jaynedev</p>
+                </div>
+              
+            </div>
+        </div>
+      
+    </div>
+</body>
+</html>
