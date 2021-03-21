@@ -14,7 +14,7 @@
 
         .container{
             padding-top: 20px;
-            width: 970px;
+            max-width: 970px;
             margin: auto;
         }
         body{
@@ -155,13 +155,38 @@
             font-style: italic;
             text-decoration: underline;
         }
+
+        @media screen and (max-width:1023px) {
+            .heading *{
+                text-align: center;
+            }
+            .d-inline-block{
+                width: 100%;
+            }
+            .about{
+                margin-top: 20px;
+            }
+            .portfolio-img{
+                border: none;
+            }
+        }
+
+        @media screen and (max-width:479px) {
+            .list{
+                width: 100%;
+            }
+
+            .master{
+                display: none;
+            }
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <div class="heading">
             <h1 class="d-inline-block">Jayne Doe</h1>
-            <h2 class="d-inline-block">Master of shadow and the Internet!</h2>
+            <h2 class="d-inline-block master">Master of shadow and the Internet!</h2>
         </div>
         <div class="contents">
             <div class="portfolio-img d-inline-block"></div>
